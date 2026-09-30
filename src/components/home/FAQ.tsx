@@ -15,10 +15,6 @@ const faqs = [
     answer: "Hardware kits are shipped via our delivery partners across India. Typically, orders arrive within 3-5 business days depending on your pincode."
   },
   {
-    question: "What is included in a Bundle?",
-    answer: "A bundle includes the complete physical hardware kit and the accompanying software project source code to build a full end-to-end IoT solution."
-  },
-  {
     question: "Can I request a custom project?",
     answer: "Absolutely. We operate as an engineering lab and accept custom project requests. Use the Contact or Custom Projects page to get a quote."
   }

@@ -35,8 +35,8 @@ export function Navbar() {
             <Link href="/shop" className="hover:text-brand-primary transition-colors">Shop</Link>
             <Link href="/shop/software" className="hover:text-brand-primary transition-colors">Software</Link>
             <Link href="/shop/hardware" className="hover:text-brand-primary transition-colors">Hardware</Link>
-            <Link href="/shop/bundles" className="hover:text-brand-primary transition-colors">Bundles</Link>
             <Link href="/custom-projects" className="hover:text-brand-primary transition-colors">Custom</Link>
+            <Link href="/admin" className="hover:text-brand-primary transition-colors">Admin</Link>
             <Link href="/faq" className="hover:text-brand-primary transition-colors">FAQ</Link>
           </div>
         </div>
@@ -83,8 +83,8 @@ export function Navbar() {
               <Link href="/shop" onClick={() => setMobileMenuOpen(false)}>Shop All</Link>
               <Link href="/shop/software" onClick={() => setMobileMenuOpen(false)}>Software</Link>
               <Link href="/shop/hardware" onClick={() => setMobileMenuOpen(false)}>Hardware</Link>
-              <Link href="/shop/bundles" onClick={() => setMobileMenuOpen(false)}>Bundles</Link>
               <Link href="/custom-projects" onClick={() => setMobileMenuOpen(false)}>Custom Projects</Link>
+              <Link href="/admin" onClick={() => setMobileMenuOpen(false)}>Admin Panel</Link>
               <Link href="/faq" onClick={() => setMobileMenuOpen(false)}>FAQ</Link>
               <hr className="border-brand-border" />
               <Link href="/cart" className="flex items-center gap-2" onClick={() => setMobileMenuOpen(false)}>

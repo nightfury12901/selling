@@ -84,10 +84,10 @@ export function EntryScreen() {
             Browse Projects
           </a>
           <a
-            href="/shop/bundles"
+            href="/custom-projects"
             className="px-8 py-4 border border-brand-border text-brand-primary font-semibold text-sm tracking-wide rounded-full hover:border-brand-primary transition-colors"
           >
-            View Bundles
+            Custom Request
           </a>
         </motion.div>
 

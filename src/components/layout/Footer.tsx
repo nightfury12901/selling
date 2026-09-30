@@ -48,7 +48,7 @@ export function Footer() {
             <li><Link href="/shop" className="hover:text-brand-muted transition-colors">Shop All</Link></li>
             <li><Link href="/shop/software" className="hover:text-brand-muted transition-colors">Software</Link></li>
             <li><Link href="/shop/hardware" className="hover:text-brand-muted transition-colors">Hardware</Link></li>
-            <li><Link href="/shop/bundles" className="hover:text-brand-muted transition-colors">Bundles</Link></li>
+            <li><Link href="/admin" className="hover:text-brand-muted transition-colors">Admin Panel</Link></li>
           </ul>
         </div>
 
